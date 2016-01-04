@@ -6,10 +6,40 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		04AE33331B8AF8450069F51C /* DylibScript */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04AE33341B8AF8450069F51C /* Build configuration list for PBXAggregateTarget "DylibScript" */;
+			buildPhases = (
+				04AE33391B8AF8730069F51C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = DylibScript;
+			productName = DylibScript;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		041C2CD51BA7C8F400D709A6 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C2CD41BA7C8F400D709A6 /* MyView.m */; };
+		041C2CD71BA7C90600D709A6 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041C2CD61BA7C90600D709A6 /* MyView.xib */; };
+		046E0B361B9046E9001DA402 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E0B331B9046E9001DA402 /* SimplePing.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		046E0B371B9046E9001DA402 /* SimplePingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E0B351B9046E9001DA402 /* SimplePingHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		046E0B391B9046F7001DA402 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E0B381B9046F7001DA402 /* CFNetwork.framework */; };
+		046E0B3B1B904700001DA402 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046E0B3A1B904700001DA402 /* Security.framework */; };
 		04AE331D1B8AF7CA0069F51C /* DylibTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AE331C1B8AF7CA0069F51C /* DylibTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04AE33231B8AF7CA0069F51C /* DylibTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AE33171B8AF7CA0069F51C /* DylibTest.framework */; };
 		04AE332A1B8AF7CA0069F51C /* DylibTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE33291B8AF7CA0069F51C /* DylibTestTests.m */; };
+		04AE333C1B8AF8CD0069F51C /* MyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AE333A1B8AF8CD0069F51C /* MyViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04AE333D1B8AF8CD0069F51C /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE333B1B8AF8CD0069F51C /* MyViewController.m */; };
+		04AE33821B8AF9EC0069F51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE33811B8AF9EC0069F51C /* main.m */; };
+		04AE33851B8AF9EC0069F51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE33841B8AF9EC0069F51C /* AppDelegate.m */; };
+		04AE33881B8AF9EC0069F51C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE33871B8AF9EC0069F51C /* ViewController.m */; };
+		04AE338B1B8AF9EC0069F51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE33891B8AF9EC0069F51C /* Main.storyboard */; };
+		04AE338D1B8AF9EC0069F51C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE338C1B8AF9EC0069F51C /* Images.xcassets */; };
+		04AE33901B8AF9EC0069F51C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AE338E1B8AF9EC0069F51C /* LaunchScreen.xib */; };
+		04AE339C1B8AF9EC0069F51C /* DylibDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE339B1B8AF9EC0069F51C /* DylibDemoTests.m */; };
+		04E64EAA1B9FDFB20091D629 /* myObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E64EA91B9FDFB20091D629 /* myObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,15 +50,48 @@
 			remoteGlobalIDString = 04AE33161B8AF7CA0069F51C;
 			remoteInfo = DylibTest;
 		};
+		04AE33961B8AF9EC0069F51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AE330E1B8AF7CA0069F51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AE337C1B8AF9EC0069F51C;
+			remoteInfo = DylibDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041C2CD31BA7C8F400D709A6 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		041C2CD41BA7C8F400D709A6 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		041C2CD61BA7C90600D709A6 /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		046E0B321B9046E9001DA402 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		046E0B331B9046E9001DA402 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		046E0B341B9046E9001DA402 /* SimplePingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		046E0B351B9046E9001DA402 /* SimplePingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePingHelper.m; sourceTree = "<group>"; };
+		046E0B381B9046F7001DA402 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		046E0B3A1B904700001DA402 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		04AE33171B8AF7CA0069F51C /* DylibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DylibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE331B1B8AF7CA0069F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04AE331C1B8AF7CA0069F51C /* DylibTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DylibTest.h; sourceTree = "<group>"; };
 		04AE33221B8AF7CA0069F51C /* DylibTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DylibTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE33281B8AF7CA0069F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04AE33291B8AF7CA0069F51C /* DylibTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DylibTestTests.m; sourceTree = "<group>"; };
+		04AE333A1B8AF8CD0069F51C /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		04AE333B1B8AF8CD0069F51C /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		04AE337D1B8AF9EC0069F51C /* DylibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DylibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AE33801B8AF9EC0069F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AE33811B8AF9EC0069F51C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AE33831B8AF9EC0069F51C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04AE33841B8AF9EC0069F51C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04AE33861B8AF9EC0069F51C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04AE33871B8AF9EC0069F51C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04AE338A1B8AF9EC0069F51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AE338C1B8AF9EC0069F51C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04AE338F1B8AF9EC0069F51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04AE33951B8AF9EC0069F51C /* DylibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DylibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AE339A1B8AF9EC0069F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AE339B1B8AF9EC0069F51C /* DylibDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DylibDemoTests.m; sourceTree = "<group>"; };
+		04E64EA81B9FDFB20091D629 /* myObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myObject.h; sourceTree = "<group>"; };
+		04E64EA91B9FDFB20091D629 /* myObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +110,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04AE337A1B8AF9EC0069F51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E0B3B1B904700001DA402 /* Security.framework in Frameworks */,
+				046E0B391B9046F7001DA402 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AE33921B8AF9EC0069F51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		04AE330D1B8AF7CA0069F51C = {
 			isa = PBXGroup;
 			children = (
+				046E0B3A1B904700001DA402 /* Security.framework */,
+				046E0B381B9046F7001DA402 /* CFNetwork.framework */,
 				04AE33191B8AF7CA0069F51C /* DylibTest */,
 				04AE33261B8AF7CA0069F51C /* DylibTestTests */,
+				04AE337E1B8AF9EC0069F51C /* DylibDemo */,
+				04AE33981B8AF9EC0069F51C /* DylibDemoTests */,
 				04AE33181B8AF7CA0069F51C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +147,8 @@
 			children = (
 				04AE33171B8AF7CA0069F51C /* DylibTest.framework */,
 				04AE33221B8AF7CA0069F51C /* DylibTestTests.xctest */,
+				04AE337D1B8AF9EC0069F51C /* DylibDemo.app */,
+				04AE33951B8AF9EC0069F51C /* DylibDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +158,8 @@
 			children = (
 				04AE331C1B8AF7CA0069F51C /* DylibTest.h */,
 				04AE331A1B8AF7CA0069F51C /* Supporting Files */,
+				04AE333A1B8AF8CD0069F51C /* MyViewController.h */,
+				04AE333B1B8AF8CD0069F51C /* MyViewController.m */,
 			);
 			path = DylibTest;
 			sourceTree = "<group>";
@@ -102,6 +189,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04AE337E1B8AF9EC0069F51C /* DylibDemo */ = {
+			isa = PBXGroup;
+			children = (
+				046E0B321B9046E9001DA402 /* SimplePing.h */,
+				046E0B331B9046E9001DA402 /* SimplePing.m */,
+				046E0B341B9046E9001DA402 /* SimplePingHelper.h */,
+				046E0B351B9046E9001DA402 /* SimplePingHelper.m */,
+				04AE33831B8AF9EC0069F51C /* AppDelegate.h */,
+				04AE33841B8AF9EC0069F51C /* AppDelegate.m */,
+				04AE33861B8AF9EC0069F51C /* ViewController.h */,
+				04AE33871B8AF9EC0069F51C /* ViewController.m */,
+				04AE33891B8AF9EC0069F51C /* Main.storyboard */,
+				04AE338C1B8AF9EC0069F51C /* Images.xcassets */,
+				04AE338E1B8AF9EC0069F51C /* LaunchScreen.xib */,
+				04AE337F1B8AF9EC0069F51C /* Supporting Files */,
+				04E64EA81B9FDFB20091D629 /* myObject.h */,
+				04E64EA91B9FDFB20091D629 /* myObject.m */,
+				041C2CD31BA7C8F400D709A6 /* MyView.h */,
+				041C2CD41BA7C8F400D709A6 /* MyView.m */,
+				041C2CD61BA7C90600D709A6 /* MyView.xib */,
+			);
+			path = DylibDemo;
+			sourceTree = "<group>";
+		};
+		04AE337F1B8AF9EC0069F51C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AE33801B8AF9EC0069F51C /* Info.plist */,
+				04AE33811B8AF9EC0069F51C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04AE33981B8AF9EC0069F51C /* DylibDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AE339B1B8AF9EC0069F51C /* DylibDemoTests.m */,
+				04AE33991B8AF9EC0069F51C /* Supporting Files */,
+			);
+			path = DylibDemoTests;
+			sourceTree = "<group>";
+		};
+		04AE33991B8AF9EC0069F51C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AE339A1B8AF9EC0069F51C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -110,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04AE331D1B8AF7CA0069F51C /* DylibTest.h in Headers */,
+				04AE333C1B8AF8CD0069F51C /* MyViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +290,41 @@
 			productReference = 04AE33221B8AF7CA0069F51C /* DylibTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		04AE337C1B8AF9EC0069F51C /* DylibDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AE339D1B8AF9EC0069F51C /* Build configuration list for PBXNativeTarget "DylibDemo" */;
+			buildPhases = (
+				04AE33791B8AF9EC0069F51C /* Sources */,
+				04AE337A1B8AF9EC0069F51C /* Frameworks */,
+				04AE337B1B8AF9EC0069F51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DylibDemo;
+			productName = DylibDemo;
+			productReference = 04AE337D1B8AF9EC0069F51C /* DylibDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AE33941B8AF9EC0069F51C /* DylibDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AE33A01B8AF9EC0069F51C /* Build configuration list for PBXNativeTarget "DylibDemoTests" */;
+			buildPhases = (
+				04AE33911B8AF9EC0069F51C /* Sources */,
+				04AE33921B8AF9EC0069F51C /* Frameworks */,
+				04AE33931B8AF9EC0069F51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AE33971B8AF9EC0069F51C /* PBXTargetDependency */,
+			);
+			name = DylibDemoTests;
+			productName = DylibDemoTests;
+			productReference = 04AE33951B8AF9EC0069F51C /* DylibDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,6 +340,16 @@
 					04AE33211B8AF7CA0069F51C = {
 						CreatedOnToolsVersion = 6.4;
 					};
+					04AE33331B8AF8450069F51C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04AE337C1B8AF9EC0069F51C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04AE33941B8AF9EC0069F51C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04AE337C1B8AF9EC0069F51C;
+					};
 				};
 			};
 			buildConfigurationList = 04AE33111B8AF7CA0069F51C /* Build configuration list for PBXProject "DylibTest" */;
@@ -175,6 +358,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 04AE330D1B8AF7CA0069F51C;
 			productRefGroup = 04AE33181B8AF7CA0069F51C /* Products */;
@@ -183,6 +367,9 @@
 			targets = (
 				04AE33161B8AF7CA0069F51C /* DylibTest */,
 				04AE33211B8AF7CA0069F51C /* DylibTestTests */,
+				04AE33331B8AF8450069F51C /* DylibScript */,
+				04AE337C1B8AF9EC0069F51C /* DylibDemo */,
+				04AE33941B8AF9EC0069F51C /* DylibDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,13 +389,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04AE337B1B8AF9EC0069F51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041C2CD71BA7C90600D709A6 /* MyView.xib in Resources */,
+				04AE338B1B8AF9EC0069F51C /* Main.storyboard in Resources */,
+				04AE33901B8AF9EC0069F51C /* LaunchScreen.xib in Resources */,
+				04AE338D1B8AF9EC0069F51C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AE33931B8AF9EC0069F51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04AE33391B8AF8730069F51C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04AE33121B8AF7CA0069F51C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AE333D1B8AF8CD0069F51C /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +442,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04AE33791B8AF9EC0069F51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE33881B8AF9EC0069F51C /* ViewController.m in Sources */,
+				04AE33851B8AF9EC0069F51C /* AppDelegate.m in Sources */,
+				04AE33821B8AF9EC0069F51C /* main.m in Sources */,
+				046E0B361B9046E9001DA402 /* SimplePing.m in Sources */,
+				04E64EAA1B9FDFB20091D629 /* myObject.m in Sources */,
+				046E0B371B9046E9001DA402 /* SimplePingHelper.m in Sources */,
+				041C2CD51BA7C8F400D709A6 /* MyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AE33911B8AF9EC0069F51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE339C1B8AF9EC0069F51C /* DylibDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -228,7 +472,31 @@
 			target = 04AE33161B8AF7CA0069F51C /* DylibTest */;
 			targetProxy = 04AE33241B8AF7CA0069F51C /* PBXContainerItemProxy */;
 		};
+		04AE33971B8AF9EC0069F51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AE337C1B8AF9EC0069F51C /* DylibDemo */;
+			targetProxy = 04AE33961B8AF9EC0069F51C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04AE33891B8AF9EC0069F51C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AE338A1B8AF9EC0069F51C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AE338E1B8AF9EC0069F51C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AE338F1B8AF9EC0069F51C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04AE332B1B8AF7CA0069F51C /* Debug */ = {
@@ -379,6 +647,84 @@
 			};
 			name = Release;
 		};
+		04AE33351B8AF8450069F51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04AE33361B8AF8450069F51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04AE339E1B8AF9EC0069F51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DylibDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04AE339F1B8AF9EC0069F51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = DylibDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04AE33A11B8AF9EC0069F51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DylibDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DylibDemo.app/DylibDemo";
+			};
+			name = Debug;
+		};
+		04AE33A21B8AF9EC0069F51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_ENABLE_CPP_RTTI = YES;
+				INFOPLIST_FILE = DylibDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DylibDemo.app/DylibDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -398,6 +744,7 @@
 				04AE332F1B8AF7CA0069F51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04AE33301B8AF7CA0069F51C /* Build configuration list for PBXNativeTarget "DylibTestTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +753,34 @@
 				04AE33321B8AF7CA0069F51C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AE33341B8AF8450069F51C /* Build configuration list for PBXAggregateTarget "DylibScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE33351B8AF8450069F51C /* Debug */,
+				04AE33361B8AF8450069F51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AE339D1B8AF9EC0069F51C /* Build configuration list for PBXNativeTarget "DylibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE339E1B8AF9EC0069F51C /* Debug */,
+				04AE339F1B8AF9EC0069F51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AE33A01B8AF9EC0069F51C /* Build configuration list for PBXNativeTarget "DylibDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE33A11B8AF9EC0069F51C /* Debug */,
+				04AE33A21B8AF9EC0069F51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
